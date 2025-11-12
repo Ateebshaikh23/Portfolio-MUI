@@ -1,0 +1,123 @@
+.back {
+    border-radius: 3rem;
+    width: 85%;
+    margin: 2rem auto;
+    padding: 3rem 6rem;
+    box-shadow: 0 4px 20px #00000014;
+    background: linear-gradient(270deg, #1E3A8A 0%, #6A88DD 97%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.TechName h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.TechContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.TechSkills {
+    background-color: white;
+    width: 160px;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    /* Start hidden for fade-in animation */
+}
+
+.TechSkills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.TechSkills img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.TechSkills button {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: #1E3A8A;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.TechSkills button:hover {
+    background: #6A88DD;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .TechSkills {
+        width: 120px;
+        padding: 1rem;
+    }
+
+    .TechSkills img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .TechSkills button {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .back {
+        padding: 2rem;
+    }
+
+    .TechSkills {
+        width: 100px;
+        padding: 0.8rem;
+    }
+
+    .TechSkills img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .TechSkills button {
+        font-size: 0.8rem;
+    }
+}

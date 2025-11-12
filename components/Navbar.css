@@ -1,0 +1,100 @@
+/* === Navbar Container === */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 91%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #1E3A8A 0%, #6A88DD 100%);
+  box-shadow: 0 4px 20px rgba(30, 58, 138, 0.3);
+  padding: 0.8rem 4rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  transition: all 0.4s ease-in-out;
+  animation: fadeInDown 1s ease-in-out;
+  margin-top: -1.5rem;
+}
+
+/* === Logo === */
+.logo-img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+}
+
+/* === Nav Items === */
+.nav-items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+/* Animated underline effect */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #6A88DD, #1E3A8A);
+  transition: width 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #bcd2ff;
+  /* light pastel blue */
+  text-shadow: 0 0 8px rgba(106, 136, 221, 0.8);
+}
+
+/* === Animation === */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Responsive === */
+@media (max-width: 900px) {
+  .navbar {
+    /* flex-direction: column; */
+    padding: 1rem 2rem;
+  }
+
+  .nav-items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}
