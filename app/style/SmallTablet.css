@@ -1,0 +1,231 @@
+@media (min-width: 500px) and (max-width: 600px) {
+
+    /* ------------------------------ */
+    /* TECHNOLOGY SECTION */
+    /* ------------------------------ */
+    .back {
+        width: 80%;
+        padding: 2.2rem 2.5rem;
+        border-radius: 2.2rem;
+    }
+
+    .TechName h1 {
+        font-size: 2.3rem;
+        margin-bottom: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .TechContainer {
+        gap: 1.3rem;
+    }
+
+    .TechSkills {
+        width: 90px;
+        padding: 1.25rem;
+        border-radius: 1.8rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .TechSkills:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    }
+
+    .TechSkills img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 0.9rem;
+        transition: transform 0.3s ease;
+    }
+
+    .TechSkills:hover img {
+        transform: scale(1.07);
+    }
+
+    .TechSkills button {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        border-radius: 14px;
+        letter-spacing: 0.5px;
+        background: linear-gradient(90deg, #1E3A8A, #6A88DD);
+    }
+
+    .TechSkills button:hover {
+        background: linear-gradient(90deg, #6A88DD, #1E3A8A);
+        transform: scale(1.05);
+    }
+
+
+    /* ------------------------------ */
+    /* PROJECT SECTION */
+    /* ------------------------------ */
+    .projectBody {
+        width: 88%;
+        padding: 2.5rem 2rem;
+        border-radius: 1.8rem;
+    }
+
+    .projectName h2 {
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .projectName p {
+        font-size: 0.95rem;
+        padding: 0 0.5rem;
+        line-height: 1.4;
+    }
+
+    .projectContainer {
+        gap: 1.6rem;
+    }
+
+    .ProjectCard {
+        width: 180px;
+        padding: 1rem;
+        border-radius: 1.2rem;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease;
+    }
+
+    .imgWrapper {
+        border-radius: 0.9rem;
+    }
+
+    .ProjectCard img {
+        height: 135px;
+        border-radius: 0.9rem;
+        transition: 0.3s ease;
+    }
+
+    .ProjectCard h3 {
+        font-size: 1.05rem;
+        margin: 0.7rem 0 0.9rem;
+    }
+
+    .ProjectCard button {
+        font-size: 0.85rem;
+        padding: 0.45rem 1.1rem;
+        border-radius: 0.7rem;
+    }
+
+    .ProjectCard:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+    }
+
+    .ProjectCard:hover img {
+        transform: scale(1.06);
+    }
+
+
+    /* ------------------------------ */
+    /* SERVICES SECTION */
+    /* ------------------------------ */
+    .servicesSection {
+        width: 88%;
+        padding: 2.8rem 1.6rem;
+    }
+
+    .serviceHeader h1 {
+        font-size: 1.8rem;
+    }
+
+    .serviceHeader p {
+        font-size: 0.9rem;
+        line-height: 1.45;
+    }
+
+    .serviceCard {
+        width: 150px;
+        padding: 1.3rem 0.9rem;
+        border-radius: 1.1rem;
+    }
+
+    .serviceImageWrapper {
+        width: 78px;
+        height: 78px;
+    }
+
+    .serviceButton {
+        font-size: 0.8rem;
+        padding: 0.45rem 0.9rem;
+    }
+
+
+    /* ------------------------------ */
+    /* CONTACT SECTION */
+    /* ------------------------------ */
+    .ContactText {
+        font-size: 1.25rem;
+        padding: 0.9rem 0;
+        border-radius: 1.8rem;
+    }
+
+    .contactContainer {
+        margin-top: 2.5rem;
+        gap: 1.6rem;
+        flex-direction: column;
+    }
+
+    .phoneImg {
+        width: 60%;
+        display: none;
+        justify-content: center;
+    }
+
+    .phoneImg img {
+        width: 85%;
+        margin-left: 0;
+    }
+
+    .contactForm {
+        width: 92%;
+        padding: 1.3rem 0;
+        border-radius: 2.4rem;
+    }
+
+    .form {
+        width: 92%;
+        padding: 1.8rem 0;
+        border-radius: 2.2rem;
+    }
+
+    .formHeader h2 {
+        font-size: 1.4rem;
+    }
+
+    .formHeader p {
+        font-size: 0.9rem;
+        padding: 0 0.6rem;
+    }
+
+    .formGroup {
+        width: 100%;
+        margin-left: 1.6rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        width: 78%;
+        font-size: 0.9rem;
+        padding: 0.7rem 0.9rem;
+        border-radius: 10px;
+    }
+
+    .formGroup label {
+        font-size: 0.85rem;
+    }
+
+    .btnGradient {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.5rem;
+        border-radius: 1.8rem;
+    }
+
+    .submitForm {
+        margin-top: 1.2rem;
+    }
+}

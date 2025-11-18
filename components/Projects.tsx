@@ -21,7 +21,7 @@ const projects = [
   {
     name: "Ateeb Portfolio",
     img: "./images/projects/portfolio.png",
-    link: "#",
+    link: "https://github.com/Ateebshaikh23/Portfolio-MUI/tree/master",
   },
 ];
 

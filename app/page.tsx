@@ -7,7 +7,10 @@ import Projects from '@/components/Projects';
 import Services from '@/components/Services';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import '@/app/style/MiniDesktop.css'
 import '@/app/style/tablet.css'
+import '@/app/style/SmallTablet.css'
+import '@/app/style/Landscape.css'
 
 const Page = () => {
   return (
@@ -19,7 +22,7 @@ const Page = () => {
       <Projects />
       <Services />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   )
 }

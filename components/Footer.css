@@ -104,3 +104,74 @@
     font-size: 0.8rem;
   }
 }
+
+/* this is for footer */
+/* 📱 Tablet Responsive — For screens ≤ 850px */
+@media (max-width: 850px) {
+
+  .footer {
+    width: 95%;
+    padding: 2.5rem 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .footer-section {
+    min-width: 220px;
+    text-align: center;
+  }
+
+  .footer-info h3 {
+    font-size: 1rem;
+  }
+
+  .footer-social .icon-hover svg {
+    font-size: 2.4rem;
+  }
+
+  .footer-copy {
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+  }
+}
+
+
+@media (min-width: 500px) and (max-width: 600px) {
+
+  .footer {
+    width: 92%;
+    padding: 2.2rem 1.8rem;
+    border-radius: 1.8rem;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2.8rem;
+  }
+
+  .footer-section {
+    min-width: 200px;
+    text-align: center;
+    margin: 0.4rem 0;
+  }
+
+  .footer-info h3 {
+    font-size: 0.95rem;
+  }
+
+  .footer-info span {
+    font-size: 1rem;
+  }
+
+  .footer-social {
+    gap: 1.2rem;
+  }
+
+  .footer-social .icon-hover svg {
+    font-size: 2.2rem;
+  }
+
+  .footer-copy {
+    font-size: 0.85rem;
+    margin-top: 0.6rem;
+  }
+}

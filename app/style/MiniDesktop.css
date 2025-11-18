@@ -1,0 +1,261 @@
+/* --------------------------------------------- */
+/* 📱 RESPONSIVE (699px – 900px) */
+/* --------------------------------------------- */
+
+@media (max-width: 900px) {
+    .nav-items {
+        display: none;
+    }
+
+    .phoneImg {
+        display: none;
+    }
+}
+
+@media (min-width: 699px) and (max-width: 900px) {
+
+    /* ------------------------------ */
+    /* MAIN SECTION */
+    /* ------------------------------ */
+
+    .main {
+        flex-direction: column-reverse;
+        padding: 3rem 2rem;
+        text-align: center;
+        width: 92%;
+        min-height: auto;
+        gap: 2rem;
+    }
+
+    .mainInfo {
+        width: 100%;
+    }
+
+    .mainInfo h1 {
+        font-size: 2.5rem;
+    }
+
+    .mainInfo h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .mainInfo h2 {
+        font-size: 1.05rem;
+        line-height: 1.5;
+        padding: 0 1rem;
+    }
+
+    .mainButtons {
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1.8rem;
+    }
+
+    .btn {
+        padding: 0.7rem 1.3rem;
+        font-size: 0.9rem;
+    }
+
+    .mainPhoto {
+        width: 100%;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainPhoto img {
+        width: 220px;
+        max-width: 230px;
+    }
+
+    .glow-circle {
+        width: 250px;
+        height: 250px;
+        top: -65px;
+        right: -65px;
+    }
+
+
+    /* ------------------------------ */
+    /* ABOUT SECTION */
+    /* ------------------------------ */
+
+    .about-section {
+        width: 92%;
+        padding: 2.8rem 2rem;
+        border-radius: 1.7rem;
+        margin-top: 2.5rem;
+    }
+
+    .about-section h2 {
+        font-size: 2.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .about-content {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .about-content .intro {
+        font-size: 1.05rem;
+        margin-bottom: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    .about-lists {
+        grid-template-columns: 1fr;
+        gap: 1.3rem;
+    }
+
+    .about-lists li {
+        padding: 0.85rem 1rem;
+        border-radius: 0.9rem;
+    }
+
+
+    /* ------------------------------ */
+    /* TECHNOLOGY SECTION */
+    /* ------------------------------ */
+
+    .back {
+        width: 92%;
+        padding: 2.4rem 1.8rem;
+        border-radius: 1.8rem;
+    }
+
+    .TechName h1 {
+        font-size: 2.2rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .TechContainer {
+        gap: 1.4rem;
+    }
+
+    .TechSkills {
+        width: 135px;
+        padding: 1.2rem;
+        border-radius: 1.4rem;
+    }
+
+    .TechSkills img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .TechSkills button {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+
+
+    /* ------------------------------ */
+    /* SERVICES SECTION */
+    /* ------------------------------ */
+
+    .servicesSection {
+        width: 92%;
+        padding: 2.8rem 1.5rem;
+        border-radius: 1.7rem;
+        margin: 2.3rem auto;
+    }
+
+    .serviceHeader h1 {
+        font-size: 2rem;
+    }
+
+    .serviceHeader p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .serviceContainer {
+        gap: 1.8rem;
+    }
+
+    .serviceCard {
+        width: 240px;
+        padding: 1.5rem 1.1rem;
+        border-radius: 1.2rem;
+    }
+
+    .serviceImageWrapper {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 1.1rem;
+    }
+
+    .serviceImageWrapper img {
+        width: 70%;
+    }
+
+    .serviceButton {
+        font-size: 0.9rem;
+        padding: 0.48rem 1rem;
+    }
+
+
+    /* ------------------------------ */
+    /* CONTACT SECTION */
+    /* ------------------------------ */
+
+    .ContactText {
+        font-size: 1.2rem;
+        padding: 1rem;
+        border-radius: 1.4rem;
+    }
+
+    .contactContainer {
+        gap: 1.4rem;
+        margin-top: 2rem;
+    }
+
+    .phoneImg {
+        display: none;
+    }
+
+    .contactForm {
+        width: 85%;
+        padding: 1.4rem 0;
+        border-radius: 1.9rem;
+    }
+
+    .form {
+        width: 92%;
+        padding: 1.8rem 0;
+        border-radius: 2rem;
+    }
+
+    .formGroup {
+        margin-left: 2rem;
+        width: 100%;
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        width: 85%;
+        font-size: 0.95rem;
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+    }
+
+    .formGroup label {
+        font-size: 0.9rem;
+    }
+
+    .btnGradient {
+        font-size: 0.95rem;
+        padding: 0.7rem 1.8rem;
+    }
+
+    .formHeader h2 {
+        font-size: 1.6rem;
+    }
+
+    .formHeader p {
+        font-size: 0.95rem;
+        padding: 0 1rem;
+    }
+}
