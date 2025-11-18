@@ -20,4 +20,4 @@
 :HL["./images/Tech/performance.png","image"]
 :HL["./images/Tech/api-integration.png","image"]
 :HL["./images/Tech/code-review.png","image"]
-0:{"buildId":"bD3tI_7EKpAtAi85gsXJB","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"fwRVf4zzSVNAsgNAs9n6M","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

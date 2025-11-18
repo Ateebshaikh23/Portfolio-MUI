@@ -1,11 +1,10 @@
-/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
-  output: "export",                 // Enables static export
-  images: {
-    unoptimized: true,              // Required for GitHub Pages
-  },
-  basePath: "/Portfolio-MUI",       // Your repo name
-  assetPrefix: "/Portfolio-MUI/",   // Your repo name
+  output: "export",
+  images: { unoptimized: true },
+  basePath: isProd ? "/Portfolio-MUI" : "",
+  assetPrefix: isProd ? "/Portfolio-MUI/" : "",
 };
 
 module.exports = nextConfig;
