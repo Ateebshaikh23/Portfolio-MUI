@@ -7,17 +7,10 @@ import Projects from '@/components/Projects';
 import Services from '@/components/Services';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-// import '@/app/style/MiniDesktop.css'
-// import '@/app/style/tablet.css'
-// import '@/app/style/SmallTablet.css'
-// import '@/app/style/Landscape.css'
-
-
-
-import './style/MiniDesktop.css'
-import './style/tablet.css'
-import './style/SmallTablet.css'
-import './style/Landscape.css'
+import './styles/MiniDesktop.css'
+import './styles/tablet.css'
+import './styles/SmallTablet.css'
+import './styles/Landscape.css'
 
 const Page = () => {
   return (
